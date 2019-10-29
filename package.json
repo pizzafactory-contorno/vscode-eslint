@@ -327,17 +327,19 @@
 		"lint:client": "eslint --config ./client/.eslintrc.json ./client/src/*.ts",
 		"lint:server": "eslint --config ./server/.eslintrc.json ./server/src/*.ts",
 		"clean": "rimraf client/out && rimraf server/out",
+		"package": "vsce package",
 		"postinstall": "cd client && npm install && cd ../server && npm install && cd .."
 	},
 	"devDependencies": {
 		"@types/node": "^10.14.6",
-		"typescript": "^3.5.3",
-		"eslint": "^6.2.2",
 		"@typescript-eslint/parser": "^2.0.0",
-		"webpack": "^4.39.2",
-		"webpack-cli": "^3.3.7",
-		"ts-loader": "^5.4.5",
+		"eslint": "^6.2.2",
 		"merge-options": "^1.0.1",
-		"rimraf": "^3.0.0"
+		"rimraf": "^3.0.0",
+		"ts-loader": "^5.4.5",
+		"typescript": "^3.5.3",
+		"vsce": "^1.68.0",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.7"
 	}
 }
