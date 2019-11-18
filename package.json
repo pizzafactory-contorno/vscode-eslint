@@ -334,7 +334,7 @@
 		"typescript": "^3.5.3",
 		"eslint": "^6.2.2",
 		"@typescript-eslint/parser": "^2.0.0",
-		"webpack": "^4.39.2",
+		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.7",
 		"ts-loader": "^5.4.5",
 		"merge-options": "^1.0.1",
